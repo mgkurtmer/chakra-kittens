@@ -1,8 +1,19 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-align: center;
-  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  background: linear-gradient(to bottom, #fdf6f0, #fceaff);
   color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #fddde6;
+  padding: 20px 0;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #a64d79;
 }
 .kitten-grid {
   display: flex;
@@ -13,9 +24,16 @@ body {
 }
 .kitten-grid a {
   padding: 1em;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  border: 2px dashed #ffd1dc;
+  background-color: #fff0f5;
   text-decoration: none;
-  border-radius: 10px;
-  width: 100px;
+  border-radius: 12px;
+  width: 120px;
+  display: inline-block;
+  color: #c94f7c;
+  transition: all 0.3s ease;
+}
+.kitten-grid a:hover {
+  background-color: #ffe6f0;
+  transform: scale(1.05);
 }

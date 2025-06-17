@@ -1,2 +1,1 @@
-// Placeholder for future interactivity
-console.log("Chakra Kittens site loaded.");
+console.log("Welcome to Chakra Kittens v2!");
